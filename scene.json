@@ -1,0 +1,145 @@
+{
+  "id": "p33",
+  "title": "Optical Vortex Generator",
+  "category": "Metasurface Optics",
+  "silhouette": "lattice",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "polarizer",
+      "label": "Polarization preparation",
+      "role": "path",
+      "x": 0.22,
+      "y": 0.24
+    },
+    {
+      "id": "n2",
+      "glyph": "optic",
+      "label": "Gaussian beam",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.24
+    },
+    {
+      "id": "n3",
+      "glyph": "fin",
+      "label": "Oriented anisotropic meta-atoms",
+      "role": "path",
+      "x": 0.78,
+      "y": 0.24
+    },
+    {
+      "id": "n4",
+      "glyph": "vortex",
+      "label": "Converted helical phase",
+      "role": "sense",
+      "x": 0.22,
+      "y": 0.52
+    },
+    {
+      "id": "n5",
+      "glyph": "vortex",
+      "label": "Donut intensity",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.52
+    },
+    {
+      "id": "n6",
+      "glyph": "vortex",
+      "label": "Axial singularity",
+      "role": "path",
+      "x": 0.78,
+      "y": 0.52
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "sense",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1"
+    ],
+    [
+      "n2"
+    ],
+    [
+      "n3"
+    ],
+    [
+      "n4"
+    ],
+    [
+      "n5",
+      "n6"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal polarization preparation",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Follow Gaussian beam",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Show oriented anisotropic meta-atoms",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Show converted helical phase",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Show donut intensity and axial singularity",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    }
+  ]
+}
