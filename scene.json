@@ -11,8 +11,8 @@
       "glyph": "polarizer",
       "label": "Polarization preparation",
       "role": "path",
-      "x": 0.22,
-      "y": 0.24
+      "x": 0.14,
+      "y": 0.32
     },
     {
       "id": "n2",
@@ -20,23 +20,23 @@
       "label": "Gaussian beam",
       "role": "path",
       "x": 0.5,
-      "y": 0.24
+      "y": 0.32
     },
     {
       "id": "n3",
       "glyph": "fin",
       "label": "Oriented anisotropic meta-atoms",
       "role": "path",
-      "x": 0.78,
-      "y": 0.24
+      "x": 0.86,
+      "y": 0.32
     },
     {
       "id": "n4",
       "glyph": "vortex",
       "label": "Converted helical phase",
       "role": "sense",
-      "x": 0.22,
-      "y": 0.52
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n5",
@@ -44,15 +44,15 @@
       "label": "Donut intensity",
       "role": "path",
       "x": 0.5,
-      "y": 0.52
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "vortex",
       "label": "Axial singularity",
       "role": "path",
-      "x": 0.78,
-      "y": 0.52
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
